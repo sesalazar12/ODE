@@ -1,0 +1,9 @@
+site_name: ODE Docs
+
+theme:
+  name: "material"
+
+
+nav: 
+  - index.md
+  - reference.md
