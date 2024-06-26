@@ -8,4 +8,5 @@ nav:
   - index.md
   - reference.md
 
-
+plugins:
+  - mkdocstrings
