@@ -12,5 +12,5 @@ plugins:
   - mkdocstrings:
     default_handler: python
       handlers:
-        python:
-          paths: [src]
+          python:
+            paths: [src]
