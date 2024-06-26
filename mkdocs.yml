@@ -1,7 +1,7 @@
 site_name: ODE Docs
 
 theme:
-  name: "ODE"
+  name: "readthedocs"
 
 
 nav: 
