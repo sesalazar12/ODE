@@ -10,7 +10,4 @@ nav:
 
 plugins:
   - mkdocstrings:
-    default_handler: python
-      handlers:
-          python:
-            paths: [src]
+    default_handler: python3
