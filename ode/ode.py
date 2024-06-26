@@ -7,17 +7,16 @@ def euler(x0,t,f):
     """Metodo Euler para Ecuaciones Diferenciales Ordinarias con condicion inicial
 
     Example:
-        >>>euler(0,t,func)
-        [ 0.          0.          1.18623077 -0.15217513 -0.86222182]
+        >>>euler(0,t,func)  <br /> [ 0.          0.          1.18623077 -0.15217513 -0.86222182]
 
     Arguments:
 
-        x0 -- condicion inicial 
+        x0 (float,int)-- condicion inicial 
         t (array)  -- arreglo de intervalo a evaluar 
         f -- funcion en estudio
 
     Returns:
-        array :  Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
+      x : [array]   Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
     """
 
     h = t[1] - t[0]
@@ -32,18 +31,17 @@ def rk2(x0,t,f):
     """Metodo Runge-Kutta de 2do orden para Ecuaciones Diferenciales Ordinarias con condicion inicial
 
     Example:
-        >>>rk2(0,t,func)
-        [0.         0.         0.94312516 1.20968194 2.17349484]
+        >>>rk2(0,t,func) <br /> [0.         0.         0.94312516 1.20968194 2.17349484]
 
     Args:
-        x0 -- Condicion inicial
+        x0 (float,int) -- Condicion inicial
         t (array) -- Arreglo del intervalo a evaluar
         func -- Funcion en estudio
 
 
 
     Returns:
-        array :  Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
+      x : [array]  Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
 
     """
 
@@ -61,16 +59,15 @@ def rk4(x0,t,f):
     """Metodo Runge-Kutta de 4to orden para Ecuaciones Diferenciales Ordinarias con condicion inicial
 
     Example:
-        >>>rk4(0,t,func)
-        [ 0.          0.19770513  0.63206696  0.2423863  -0.35739581]
+        >>>rk4(0,t,func) <br /> [ 0.          0.19770513  0.63206696  0.2423863  -0.35739581]
 
     Args:
-        x0 -- Condicion inicial
+        x0 (float,int) -- Condicion inicial
         t (array) -- Arreglo del intervalo a evaluar
         func -- Funcion en estudio
 
     Returns:
-        array :  Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
+      x :  [array]  Un arreglo que contiene la solucion de la funcion en estudio evaluada en los puntos dados.
 
     """
 
