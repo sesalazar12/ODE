@@ -1,17 +1,11 @@
 # Metodos de solucion Ecuaciones Diferenciales Ordinarias con condicion incial
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Se muestran ciertos metodos de resolucion de Ecuaciones Diferenciales Ordinarias con condicion inicial.
 
-## Commands
+##El modulo contiene:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+-'euler(x0,t,f)' - Devuelve un arreglo con la solucion utilizando el metodo de Euler.
+-'rk2(x0,t,f)' - Devuelve un arreglo con la solucion utilizando el metodo Runge-Kutta de 4to orden.
+-'rk4(x0,t,f)' - Devuelve un arreglo con la solucion utilizando el metodo Runge-
+Kutta de 4to orden.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
