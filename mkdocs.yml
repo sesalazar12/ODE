@@ -9,5 +9,4 @@ nav:
   - reference.md
 
 plugins:
-  - mkdocstrings:
-    default_handler: python3
+  - mkdocstrings
